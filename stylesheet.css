@@ -1,6 +1,5 @@
 html, body {
-  /* Set the background color to #663399. As a bonus, if you remember how to format a comment in CSS, add the comment 'Beccapurple' after the color definition.   */
-  background: #663399;   /* Beccapurlple */
+  background: #B0C4DE	;   /* Light Gray */
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -11,7 +10,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgb(107, 107, 132);
 }
 body {
-  /*   Write a rule that sets the page's default font size to 100% of the user agent's default, and that requests Verdana as the font-family. Set Geneva and the default sans-serif families as fallbacks. Try to do all of this in a single rule if possible. */
   font-family: Verdana, Geneva, sans-serif;
   font-size: 100%;
 	width: 80%;
