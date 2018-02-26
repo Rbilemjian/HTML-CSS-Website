@@ -1,6 +1,6 @@
 html, body {
   background: #B0C4DE	;   /* Light Gray */
-	margin: 0;
+	margin:0;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
@@ -113,4 +113,10 @@ blockquote {
   /*Made float property "left"*/
   float:left;
 	margin-right: 10px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.rounded{
+    border-radius: 15%;
 }
