@@ -1,5 +1,5 @@
 html, body {
-  background: #B0C4DE	;   /* Light Gray */
+  background: #484848	;   /* Dark Gray */
 	margin:0;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -32,6 +32,7 @@ h3 {
 	font-size: 1.2em;
 }
 p {
+    text-align: justify;
 	margin-bottom: 1em;
 }
 a {
@@ -60,8 +61,8 @@ pre.correct {
 	border-left-color: green;
 }
 dt {
-	font-style: italic;
-	font-size:1.2em;
+    font-weight:bold;
+	font-size:1em;
 }
 dd {
 	margin-bottom: 1.4em;
@@ -120,3 +121,25 @@ blockquote {
 .rounded{
     border-radius: 15%;
 }
+/*Taken from https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/*/
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/*end taken from https://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/*/
